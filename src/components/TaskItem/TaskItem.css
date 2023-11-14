@@ -1,0 +1,23 @@
+/* TaskItem.css */
+
+li {
+    list-style-type: none;
+    margin-bottom: 8px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  button {
+    margin-left: 8px;
+    padding: 6px 10px;
+    cursor: pointer;
+  }
+  
